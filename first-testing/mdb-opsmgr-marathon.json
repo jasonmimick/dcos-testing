@@ -1,0 +1,41 @@
+{
+  "id": "mongodb-ops-manager",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "jmimick/mongodb-enterprise-ops-manager:latest",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "hostPort": 0, "containerPort": 8080, "servicePort": 10001 }
+      ],
+      "parameters": [
+        {
+          "key": "env",
+          "value": "OM_HOST=%%OM__HOST%%"
+        },
+        {
+          "key": "env",
+          "value": "OM_PORT=10001"
+        }
+      ]
+    }
+  },
+  "instances": 1,
+  "cpus": 1,
+  "mem": 8500,
+  "networking": {
+    "port": 10001,
+    "public-access": true
+  },
+  "healthChecks": [{
+      "protocol": "HTTP",
+      "path": "/user",
+      "timeoutSeconds": 60,
+      "gracePeriodSeconds": 900,
+      "intervalSeconds": 60,
+      "maxConsecutiveFailures": 0
+  }],
+  "labels":{
+    "HAPROXY_GROUP":"external"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "hello-nginx",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "jmimick/simple-nginx",
+      "parameters": [
+        {
+          "key": "log-driver",
+          "value": "none"
+        }
+      ]
+    },
+    "portMappings": [
+      { "hostPort": 80, "containerPort": 80, "protocol": "tcp" }
+    ]
+  },
+  "networks": [
+    {
+      "mode": "container/bridge"
+    }
+  ],
+  "acceptedResourceRoles": ["slave_public"],
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 64
+}

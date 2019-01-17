@@ -1,0 +1,189 @@
+    5  docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+    6  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   15  sudo apt-get install docker
+   17  sudo apt-get install docker
+   18  sudo service docker start
+   19  docker
+   20  sudo apt-get install docker.io
+   21  sudo service docker start
+   23  docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   24  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   45  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   49  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   52  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   53  docker -h
+   54  docker run -h
+   55  docker run --help
+   56  ps -ef | grep docker
+   57  docker p[s
+   58  docker ps
+   59  sudo docker ps
+   65  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   79  history | grep docker | grep run
+   80  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  101  history | grep "docker run"
+  102  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  107  cd docker/
+  110  docker build mongodb-enterprise-ops-manager/Dockerfile .
+  112  cd docker/
+  113  docker build .
+  115  docker build mongodb-enterprise-ops-manager/Dockerfile .
+  116  docker build mongodb-enterprise-ops-manager/Dockerfile 
+  117  docker build mongodb-enterprise-ops-manager
+  118  sudo docker build mongodb-enterprise-ops-manager
+  125  history | grep docker | grep run
+  126  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  128  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  129  docker --help
+  130  docker run --help
+  131  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  135  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  138  history | grep "docker run"
+  139  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  141  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  145  sudo dockercp
+  146  sudo docker cp
+  147  sudo docker ps
+  151  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  153  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  156  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  170  docker images
+  171  sudo docker images
+  174  docker rmi e1eccdf7d232
+  175  sudo docker rmi e1eccdf7d232
+  176  docker ps
+  177  sudo docker ps
+  178  sudo docker rm c6ddbb4a50eb
+  179  sudo docker stop c6ddbb4a50eb
+  180  sudo docker ps
+  181  sudo docker exec -it mydcosdev -- /bin/bash
+  182  sudo docker ps
+  183  sudo docker logs mydcosdev
+  184  sudo docker logs kind_kapitsa
+  185  docker ps
+  186  sudo docker ps
+  187  sudo docker stop kind_kapitsa
+  189  docker images
+  190  sudo docker images
+  202  sudo docker images
+  203  sudo docker tag mongodb-enterprise-ops-manager/4.0.5.50245.20181031T0042Z-1_test jmimick/mongodb-enterprise-ops-manager:latest
+  204  sudo docker tag mongodb-enterprise-ops-manager/4.0.5.50245.20181031T0042Z-1_test:latest jmimick/mongodb-enterprise-ops-manager:latest
+  205  sudo docker tag mongodb-enterprise-ops-manager jmimick/mongodb-enterprise-ops-manager:latest
+  206  sudo docker tag mongodb-enterprise-ops-manager:4.0.5.50245.20181031T0042Z-1_test jmimick/mongodb-enterprise-ops-manager:latest
+  207  sudo docker images
+  208  sudo docker push jmimick/mongodb-enterprise-ops-manager
+  209  sudo docker login
+  210  sudo docker push jmimick/mongodb-enterprise-ops-manager
+  216  history | grep "docker run"
+  217  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  219  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  235  sudo docker images
+  236  history | grep "docker run"
+  237  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  244  docker build -t jmimick/simple-nginx .
+  245  sudo docker build -t jmimick/simple-nginx .
+  246  sudo docker images
+  247  docker login
+  248  sudo docker login
+  249  docker push jmimick/simple-nginx
+  250  sudo docker push jmimick/simple-nginx
+  257  ls ../simple-mongodb-private-cloud/docker/
+  258  ls ../simple-mongodb-private-cloud/docker/dcos-login.sh 
+  259  cat ../simple-mongodb-private-cloud/docker/dcos-login.sh
+  265  ls simple-mongodb-private-cloud/docker/
+  266  cd simple-mongodb-private-cloud/docker/
+  270  history | grep "docker run:"
+  271  history | grep "docker run"
+  272  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  276  cd docker/
+  306  history | grep "docker build"
+  382  cd simple-mongodb-private-cloud/docker/
+  414  cd docker/
+  464  cd simple-mongodb-private-cloud/docker/mongodb-enterprise-ops-manager/
+  476  sudo docker ps
+  477  sudo docker rm quirky_bartik
+  478  sudo docker stop quirky_bartik
+  479  sudo docker ps
+  481  sudo docker rm quirky_bartik
+  482  sudo docker images
+  483  sudo docker 
+  484  sudo docker ps
+  485  sudo docker ps --help
+  486  sudo docker ps --all
+  487  sudo docker container rm $(docker container ls -aq)
+  488  sudo docker container rm $(sudo docker container ls -aq)
+  502  docker ps --all
+  503  sudo docker ps --all
+  504  sudo docker stop ops-manager
+  505  sudo docker rm ops-manager
+  508  sudo docker stop ops-manager && sudo docker rm ops-manager
+  513  sudo docker stop ops-manager && sudo docker rm ops-manager
+  519  sudo docker stop ops-manager && sudo docker rm ops-manager
+  521  sudo docker ps --all
+  525  cd simple-mongodb-private-cloud/docker/
+  562  history | grep "docker build"
+  565  docker build mongodb-enterprise-ops-manager/Dockerfile .
+  566  docker build mongodb-enterprise-ops-manager/Dockerfile 
+  606  cd simple-mongodb-private-cloud/docker/
+  614  docker stop mongodb-ops-manager && docker rmi mongodb-ops-manager
+  615  sudoi docker stop ops-manager && docker rmi ops-manager
+  616  sudo docker stop ops-manager && docker rmi ops-manager
+  617  sudo docker stop ops-manager && sudo docker rmi ops-manager
+  619  sudo docker rmi ops-manager
+  620  sudo docker rm ops-manager
+  621  sudo docker stop ops-manager && sudo docker rm ops-manager
+  630  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  631  docker ps
+  632  sudo docker ps
+  633  sudo docker ps --all
+  634  sudo docker
+  635  sudo docker volumes
+  636  sudo docker volume
+  637  sudo docker volume ls
+  640  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  642  sudo docker run
+  643  sudo docker run --help
+  646  sudo docker run -it debian:9.4-slim /bin/bash
+  649  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  653  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  655  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  657  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  662  sudo docker stop ops-manager && sudo docker rm ops-manager && sudo make build run
+  663  docker ps
+  664  sudo docker ps
+  665  sudo docker ps --all
+  666  sudo docker rm ops-manager
+  667  sudo docker rm serene_carson
+  669  sudo docker push jmimick/mongodb-enterprise-ops-manager
+  702  sudo docker ps
+  703  sudo docker exec -it serene_carson -- "echo foo > /var/log/oo"
+  704  sudo docker exec --help
+  705  sudo docker exec -it serene_carson /bin/bash
+  708  sudo docker ps 
+  709  sudo docker -it ops-manager /bin/bash
+  710  sudo docker exec -it ops-manager /bin/bash
+  716  sudo docker exec -it ops-manager /bin/bash
+  717  cd simple-mongodb-private-cloud/docker/
+  721  sudo docker volume list
+  722  sudo docker volume 
+  723  sudo docker volume inspect 1965ed651644794475de3ad62a9097ca10f9d558253f72263ebbe3c86ac0ea7e
+  724  ls -l /var/lib/docker/volumes/1965ed651644794475de3ad62a9097ca10f9d558253f72263ebbe3c86ac0ea7e/_data
+  725  sudo ls -l /var/lib/docker/volumes/1965ed651644794475de3ad62a9097ca10f9d558253f72263ebbe3c86ac0ea7e/_data
+  726  sudo ls -l /var/lib/docker/volumes/1965ed651644794475de3ad62a9097ca10f9d558253f72263ebbe3c86ac0ea7e/_data/mms
+  727  sudo ls -l /var/lib/docker/volumes/1965ed651644794475de3ad62a9097ca10f9d558253f72263ebbe3c86ac0ea7e/_data/mms/logs
+  732  sudo docker exec -it ops-manager /bin/bash
+  733  sudo docker stop ops-manager
+  743  cd simple-mongodb-private-cloud/docker/
+  763  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  765  cd simple-mongodb-private-cloud/docker/mongodb-enterprise-ops-manager/
+  776  cd simple-mongodb-private-cloud/docker/
+  798  cd simple-mongodb-private-cloud/docker/
+  828  history | grep "docker run"
+  870  history | grep docker
+  871  history | grep docker | grep run
+  874  cd simple-mongodb-private-cloud/docker/
+  940  cd docker/
+  943  ls simple-mongodb-private-cloud/docker/
+  945  cd simple-mongodb-private-cloud/docker/
+  956  history | grep docker
+  957  history | grep docker > docker.commands

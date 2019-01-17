@@ -1,0 +1,327 @@
+    2  dcos config set core.dcos_url 3.89.244.129
+    4  cd dcos-mongodb-enterprise/
+    5  docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+    6  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+    9  git clone https://github.com/mesosphere/dcosdev.git
+   10  cd dcosdev/
+   12  dcos package install marathon-lb --yes
+   23  docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   24  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   27  git clone https://github.com/mesosphere/dcos-mongodb-enterprise
+   29  git clone https://github.com/mesosphere/dcos-mongodb-enterprise.git
+   30  curl -OL https://github.com/mesosphere/dcos-mongodb-enterprise/archive/mongodb.zip
+   40  git clone https://github.com/mesosphere/dcos-mongodb-enterprise
+   42  git clone https://github.com/mesosphere/dcos-mongodb-enterprise
+   44  tar xvf dcos-mongodb-enterprise.tar.gz 
+   45  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   46  cd dcos
+   48  cd dcosdev/
+   49  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   52  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   63  cd dcos-mongodb-enterprise/
+   65  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   70  rm -rf dcos-mongodb-enterprise
+   71  tar xvf dcos-mongodb-enterprise.tar.gz 
+   72  cd dcos-mongodb-enterprise/
+   76  rm -rf dcos-mongodb-enterprise
+   77  tar xvf dcos-mongodb-enterprise.tar.gz 
+   78  cd dcos-mongodb-enterprise/
+   80  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  100  cd dcos-mongodb-enterprise/
+  102  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  124  dcos
+  126  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  128  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  131  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  135  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  139  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  140  vim dcos-login.sh
+  141  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  142  vim dcos-login.sh
+  149  cat dcos-login.sh 
+  151  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  152  cat dcos-login.sh 
+  153  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  155  cat dcos-login.sh 
+  156  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  158  dcos
+  181  sudo docker exec -it mydcosdev -- /bin/bash
+  183  sudo docker logs mydcosdev
+  214  cd dcos-mongodb-enterprise/
+  217  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  219  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  228  cd dcos-mongodb-enterprise/
+  233  ls dcosdev/
+  234  ls dcos-mongodb-enterprise
+  237  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  253  dcos marathon app add hello-nginx.json
+  254  ls ../dcos-mongodb-enterprise
+  258  ls ../simple-mongodb-private-cloud/docker/dcos-login.sh 
+  259  cat ../simple-mongodb-private-cloud/docker/dcos-login.sh
+  263  ls dcos-mongodb-enterprise
+  267  cat dcos-login.sh 
+  268  vim dcos-login.sh 
+  269  cat dcos-login.sh
+  272  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  283  [ -d /usr/local/bin ] || sudo mkdir -p /usr/local/bin &&  curl https://downloads.dcos.io/binaries/cli/linux/x86-64/dcos-1.11/dcos -o dcos &&  sudo mv dcos /usr/local/bin &&  sudo chmod +x /usr/local/bin/dcos &&  dcos cluster setup https://ec2-100-25-118-223.compute-1.amazonaws.com &&  dcos
+  284  dcos config set core.ssl_verify false
+  285  [ -d /usr/local/bin ] || sudo mkdir -p /usr/local/bin &&  curl https://downloads.dcos.io/binaries/cli/linux/x86-64/dcos-1.11/dcos -o dcos &&  sudo mv dcos /usr/local/bin &&  sudo chmod +x /usr/local/bin/dcos &&  dcos cluster setup https://ec2-100-25-118-223.compute-1.amazonaws.com &&  dcos
+  286  dcos cluster setup https://ec2-100-25-118-223.compute-1.amazonaws.com
+  287  dcos config set core.ssl_verify false
+  288  dcos cluster setup https://ec2-100-25-118-223.compute-1.amazonaws.com
+  289  dcos config set core.ssl_verify False
+  290  dcos cluster setup https://ec2-100-25-118-223.compute-1.amazonaws.com
+  291  dcos config set core.ssl_verify False
+  292  dcos config get
+  293  dcos config show
+  294  dcos config show core
+  295  dcos config show core.ssl_verify
+  296  dcos config validate
+  297  dcos config set --help
+  298  dcos cluster setup --help
+  299  dcos cluster setup --insecure https://ec2-100-25-118-223.compute-1.amazonaws.com
+  300  dcos
+  301  dcos node list
+  302  dcos service list
+  308  dcos package install marathon-lb --yes
+  310  dcos marathon app add hello-nginx.json
+  311  dcos 
+  312  dcos node
+  313  dcos task list
+  315  ddos servicedcos marathon app list
+  317  dcos marathon app list
+  319  dcos marathon app list
+  321  dcos node --json | jq --raw-output '.[] | select(.attributes.public_ip == "true") | .id'
+  322  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co"
+  324  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co"
+  325  dcos node ssh --help
+  328  vim dcos.pem
+  329  chmod 0600 dcos.pem
+  330  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" --option i=./dcos.prm
+  332  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" --option CertificateFile=./dcos.prm
+  335  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" --option IdentityFile=./dcos.prm
+  336  cp dcos.pem ~/.ssh/
+  337  ssh-add ~/.ssh/dcos.pem 
+  339  ssh-add ~/.ssh/dcos.pem 
+  340  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" --option IdentityFile=./dcos.prm
+  341  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" --option IdentityFile=~/.ssh/dcos.prm
+  342  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" --option IdentityFile=~/.ssh/dcos.pem
+  343  dcos node ssh --option StrictHostKeyChecking=no --option LogLevel=quiet --master-proxy --mesos-id=$id "curl -s ifconfig.co" 
+  344  ssh -i ./dcos.pem core@100.25.118.223
+  345  dcos node ssh --master-proxy --leader
+  346  dcos node ssh --master-proxy --leader --option KeyName=$(pwd)/dcos.pem
+  348  dcos node ssh --help
+  350  dcos node ssh --master-proxy --leader --mesos-id=b52f8575-42c6-4917-b622-0a250585a8f2-S3
+  351  dcos node ssh --master-proxy --mesos-id=b52f8575-42c6-4917-b622-0a250585a8f2-S3
+  352  ssh-add ~/.ssh/dcos.pem 
+  353  chmod 0600 ~/.ssh/dcos.pem
+  354  ssh-add ~/.ssh/dcos.pem 
+  355  ssh-add -K ~/.ssh/dcos.pem 
+  361  dcos marathon app list
+  362  dcos marathon app 
+  363  dcos marathon app list
+  364  dcos marathon app remove hello-nginx
+  365  dcos marathon app list
+  367  ls dcos-mongodb-enterprise
+  368  dcos marathon app add hello-nginx.json
+  369  dcos marathon app list
+  370  dcos marathon app add siege.json
+  371  dcos marathon app list
+  373  dcos marathon
+  374  dcos marathon 
+  375  dcos marathon app list
+  376  dcos marathon app remove hello-nginx
+  378  dcos marathon app add nginx.json 
+  389  dcos marathon app add mdb-opsmgr-marathon.json 
+  391  dcos marathon app add mdb-opsmgr-marathon.json 
+  392  dcos marathon app list
+  393  dcos marathon task list
+  394  dcos marathon task 
+  395  dcos marathon task list
+  396  dcos marathon task show mongodb-ops-manager.60abf0cd-18e1-11e9-9ca6-5e53db25a408
+  404  dcos marathon
+  405  dcos marathon app list
+  406  dcos marathon debug /mongodb-ops-manager
+  407  dcos marathon debug details mongodb-ops-manager
+  408  dcos marathon app list
+  409  dcos marathon debug list
+  410  dcos marathon task list
+  411  dcos task log --follow mongodb-ops-manager
+  418  dcos marathon app list
+  419  dcos marathon app remove mongodb-ops-manager
+  420  dcos marathon app list
+  421  dcos marathon app add mdb-opsmgr-marathon.json 
+  422  dcos 
+  423  dcos marathon 
+  424  dcos marathon deployment list
+  425  dcos marathon app add mdb-opsmgr-marathon.json 
+  426  dcos marathon deployment list
+  427  dcos marathon task list
+  428  dcos task log --follow /mongodb-ops-manager
+  429  dcos task log --follow mongodb-ops-manager
+  430  dcos marathon app remove mongodb-ops-manager
+  432  dcos marathon app add mdb-opsmgr-marathon.json 
+  433  dcos task log --follow mongodb-ops-manager
+  435  dcos task log --follow mongodb-ops-manager
+  436  dcos node list
+  437  dcos marathon app list
+  438  dcos node --info
+  439  dcos
+  440  dcos cluster
+  441  dcos cluster list
+  442  dcos job list
+  444  dcos task list
+  445  dcos marathon app list
+  451  dcos marathon app remove mongodb-ops-manager
+  452  dcos marathon app add mdb-opsmgr-marathon.json 
+  453  dcos marathon app list
+  454  dcos marathon app remove mongodb-ops-manager
+  455  dcos marathon app list
+  456  dcos marathon app add mdb-opsmgr-marathon.json 
+  457  dcos marathon app list
+  458  dcos task log --follow mongodb-ops-manager
+  459  dcos node ssh
+  460  dcos node ssh --leader
+  461  dcos node ssh --leader --option KeyFile=~/.dcos.pe
+  462  dcos node ssh --leader --option KeyFile=~/.ssh/dcos.pem
+  463  dcos node ssh --leader --option IdentityFile=~/.ssh/dcos.pem
+  526  dcos marat app list
+  527  dcos marathon app list
+  530  dcos marathon app add mdb-opsmgr-marathon.json 
+  532  dcos task log mongodb-ops-manager
+  533  dcos task list
+  534  dcos marathon app list
+  674  history | grep dcosdev
+  675  dcos 
+  676  [ -d /usr/local/bin ] || sudo mkdir -p /usr/local/bin &&  curl https://downloads.dcos.io/binaries/cli/linux/x86-64/dcos-1.11/dcos -o dcos &&  sudo mv dcos /usr/local/bin &&  sudo chmod +x /usr/local/bin/dcos &&  dcos cluster setup https://18.206.85.111 && 
+  677  dcos cluster setup https://18.206.85.111 --help
+  678  dcos cluster setup https://18.206.85.111 --username bootstrapuser --password deleteme --insecure
+  679  dcos 
+  680  dcos node list
+  681  dcos
+  682  dcos service lsit
+  683  dcos service list
+  684  dcos package
+  685  dcos package liust
+  686  dcos package list
+  687  dcos package install marathon-lb --yes
+  688  dcos package list
+  689  dcos package install minio --yes
+  690  dcos package list
+  692  dcos marathon app list
+  693  dcos marathon app add mdb-opsmgr-marathon.json 
+  694  dcos marathon task list
+  695  dcos task list
+  696  dcos service list
+  697  dcos marathon app list
+  700  dcos task log --follow mongodb-ops-manager
+  734  dcos marathon app list
+  735  dcos node list
+  736  history | grep "dcos node"
+  737  dcos node --json | jq --raw-output '.[]
+  739  dcos node --json | jq --raw-output '.[]' > nodes
+  741  history | grep "dcos node"
+  742  dcos marathon app remove mongodb-ops-manager
+  745  dcos task list
+  746  dcos service
+  747  dcos node 
+  758  cd dcos-mongodb-enterprise/
+  760  dcosdevup
+  761  dcosdev up
+  762  history | grep dcosdev
+  763  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  769  dcos cluster setup https://3.81.26.222 --username bootstrapuser --password deleteme --insecure
+  770  dcos cluster setup https://3.81.26.222 --insecure
+  771  dcos
+  774  dcos package install marathon-lb --yes
+  775  dcos package install minio --yes
+  777  dcos marathon app list
+  778  dcos marathon app add mdb-opsmgr-marathon.json 
+  780  dcos task --follow ops-manager
+  782  dcos task log --follow mongodb-ops-manager
+  783  dcos marathon app remove ops-manager
+  784  dcos marathon app lis
+  785  dcos marathon app remove mongodb-ops-manager
+  788  dcos marathon app add mdb-opsmgr-marathon.json 
+  790  dcos task log --follow mongodb-ops-manager
+  793  dcos marathon app add mdb-opsmgr-marathon.json 
+  795  dcos task log --follow mongodb-ops-manager
+  797  cat dcos-login.sh 
+  800  dcos cluster setup https://100.26.5.102
+  802  dcos cluster setup https://100.26.5.102 --username bootstrapuser --password deleteme --insecure
+  803  dcos
+  805  dcos package install marathon-lb --yes
+  806  dcos package install minio --yes
+  808  dcos marathon app add mdb-opsmgr-marathon.json 
+  810  dcos task log --follow mongodb-ops-manager
+  811  dcos marathon app list
+  812  dcos marathon app remove mongodb-ops-manager
+  813  dcos marathon app list
+  816  dcos-PublicSlaveLo-K46D5ZKDW9M3-457547495.us-east-1.elb.amazonaws.com
+  818  dcos-PublicSlaveLo-K46D5ZKDW9M3-457547495.us-east-1.elb.amazonaws.com
+  819  ping dcos-PublicSlaveLo-K46D5ZKDW9M3-457547495.us-east-1.elb.amazonaws.com
+  820  curl -vvv dcos-PublicSlaveLo-K46D5ZKDW9M3-457547495.us-east-1.elb.amazonaws.com
+  821  curl -vvv dcos-PublicSlaveLo-K46D5ZKDW9M3-457547495.us-east-1.elb.amazonaws.com:9000
+  822  curl -vvv dcos-PublicSlaveLo-K46D5ZKDW9M3-457547495.us-east-1.elb.amazonaws.com:9090
+  832  git clone https://github.com/mesosphere/dcosdev.git
+  833  cd dcosdev
+  848  cd ../dcos-mongodb-enterprise/
+  849  dcosdev up
+  850  dcos package repo add mongodbservice-repo --index=0 http://34.200.235.77:9000/artifacts/mongodbservice/mongodbservice-repo.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20190117%2F%2Fs3%2Faws4_request&X-Amz-Date=20190117T123917Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=8ccde9576ab5ce40024b43b98298da457025fc02bae7cb900cc6d2fb1cc6e9b0
+  851  dcos package repo add mongodbservice-repo --index=0 "http://34.200.235.77:9000/artifacts/mongodbservice/mongodbservice-repo.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20190117%2F%2Fs3%2Faws4_request&X-Amz-Date=20190117T123917Z&X-Amz-Expires=432000&X-Amz-SignedHeaders=host&X-Amz-Signature=8ccde9576ab5ce40024b43b98298da457025fc02bae7cb900cc6d2fb1cc6e9b0"
+  852  dcos package install mongodbservice --yes
+  853  dcos marathon app list
+  854  dcos task log --follow mongodbservice
+  860  ssh-add ~/.ssh/dcos.pem 
+  863  dcos node ssh --master-proxy --leader
+  864  cat ~/.ssh/dcos.pem 
+  865  dcos node ssh --master-proxy --leader --help
+  866  dcos node ssh --master-proxy --leader --option IdentityFile=~/.ssh/dcos.pem
+  867  ssh -i ~/.ssh/dcos.pem core@100.26.5.102
+  868  ssh -i ~/.ssh/dcos.pem core@100.26.5.102 -v
+  881  dcos marathon app add opsmgr.json 
+  882  dcos task 
+  883  dcos task log --follow mongodb-ops-manager
+  886  ssh -i ~/.ssh/dcos.pem core@100.26.5.102
+  890  ssh -i ~/.ssh/dcos.pem core@100.26.5.102 -v
+  891  ssh -ki ~/.ssh/dcos.pem core@100.26.5.102 -v
+  892  dcos marathon app list
+  893  dcos task log --follow mongo-one
+  894  dcos 
+  895  dcos node
+  896  dcos node --help
+  899  dcos node --json | grep mongo
+  900  dcos node --json > xx
+  902  dcos service
+  903  dcos marathon app list
+  904  dcos marathon app
+  905  dcos marathon pod list
+  906  dcos marathon task list
+  907  dcos marathon deployment list
+  908  dcos marathon deployment list mongodb-ops-manager.c910f4a8-1a53-11e9-94b2-36cfcc083957
+  909  dcos
+  910  dcos service --list
+  911  dcos service
+  912  dcos service log mongo-one
+  913  dcos node --help
+  915  dcos ndoe --help
+  916  dcos node --help
+  917  dcos node list
+  918  dcos node 
+  919  dcos node list-components --mesos-id d80c1413-f648-41da-803e-d2a83edfd5bb-S1
+  920  dcos node --json
+  921  dcos node --json | jq '.id'
+  923  dcos node --json | jq --raw-output '.[] | .id'
+  924  dcos node --json | jq --raw-output '.[] | .id' | xargs dcos node list-components --meso-id=
+  925  dcos node list-components --meso-id=d80c1413-f648-41da-803e-d2a83edfd5bb-S2
+  926  dcos node --json | jq --raw-output '.[] | .id' | xargs dcos node list-components --mesos-id=
+  927  dcos node list-components --meso-ids=d80c1413-f648-41da-803e-d2a83edfd5bb-S2
+  928  dcos node list-compoents --mesos-id=d80c1413-f648-41da-803e-d2a83edfd5bb-S2
+  929  dcos node list-components --mesos-id=d80c1413-f648-41da-803e-d2a83edfd5bb-S2
+  930  dcos node --json | jq --raw-output '.[] | .id' 
+  931  dcos node list-components --mesos-id=d80c1413-f648-41da-803e-d2a83edfd5bb-S1
+  932  dcos node list-components --mesos-id=d80c1413-f648-41da-803e-d2a83edfd5bb-S3
+  933  dcos node list-components --mesos-id=d80c1413-f648-41da-803e-d2a83edfd5bb-S0
+  934  dcos node
+  954  history | grep dcos
+  955  history | grep dcos > dcos.commands

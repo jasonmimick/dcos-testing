@@ -1,0 +1,40 @@
+    5  docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+    6  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+    9  git clone https://github.com/mesosphere/dcosdev.git
+   10  cd dcosdev/
+   23  docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   24  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   45  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   48  cd dcosdev/
+   49  sudo docker build --no-cache -f misc/Dockerfile -t mydcosdev .
+   52  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   65  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+   80  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  102  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  126  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  128  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  131  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  135  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  139  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  141  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  151  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  153  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  156  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  181  sudo docker exec -it mydcosdev -- /bin/bash
+  183  sudo docker logs mydcosdev
+  217  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  219  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  233  ls dcosdev/
+  237  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  272  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  674  history | grep dcosdev
+  760  dcosdevup
+  761  dcosdev up
+  762  history | grep dcosdev
+  763  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  832  git clone https://github.com/mesosphere/dcosdev.git
+  833  cd dcosdev
+  849  dcosdev up
+  958  sudo docker run -ti --rm -e PROJECT_PATH=$(pwd) -v $(pwd):/dcos-mongodb-enterprise -v /var/run/docker.sock:/var/run/docker.sock mydcosdev bash
+  959  history | grep dcosdev
+  960  history | grep dcosdev > dcosdev.commands
