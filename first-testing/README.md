@@ -7,7 +7,12 @@ dcos-login.sh
 example marathon app to deploy ops mgr docker container
 mdb-opsmgr-marathon.json
 
-_note_ sed 's/%%OM__HOST%%/34.200.235.77/g' mdb-opsmgr-marathon.json > opsmgr.json
+*note* 
+
+```bash
+sed 's/%%OM__HOST%%/34.200.235.77/g' mdb-opsmgr-marathon.json > opsmgr.json
+```
+
 example marathon app - used to test public connectivity
 hello-nginx.json			
 
